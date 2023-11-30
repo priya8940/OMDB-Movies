@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+}
+/*Header styles*/
+#header{
+    display: flex;
+}
+#icon{
+    width: 10%;
+    background-color: blueviolet;
+}
+#title{
+    width:90%;
+
+    text-align: center;
+    background-color: cadetblue;
+}
+/*search box css*/
+#search-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#search-input{
+    height: 50px;
+    width: 30%;
+    font-size: 25px;
+}
+/*search suggestions */
+#search-suggestions{
+    width: 450px;
+    height: 300px;
+    display: none;
+    position: absolute;
+    left:415px;
+}
+
+.suggestions-item{
+    background-color: rgb(255, 240, 249);
+}
+/*Search results */
+#search-results{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+.result-item{
+   width: 159px;
+    height: 190px;
+    margin: 10px;
+}
+
+.result-item img{
+    width: 100%;
+    height: 100%;
+}
+
+/*WishList Style */
+.favorite{
+    color: red;
+}
+/*movie detailes style*/
+.movie-details{
+    display: flex;
+}
+.details{
+    margin-left: 100px;
+}
+#fevorate-movies{
+     margin-left: 12%;
+    top: 30px;
+    position: absolute;
+    border: 1px solid #dbe0e3;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08)
+}
